@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: red;
+    /* width: 300px; */
+    font-family: 'Domine', serif;
+    height: 100vh;
+    transition: transform 0.4s ease-in;
+    /* position: absolute; */
+}
+.sidebar nav{
+    padding: 27px;
+    margin-left: 10px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 18px 0px;
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: white;
+}
+.main{
+    background-color: white;
+    
+    width: 80vw;
+    
+}
+.container{
+    display: flex;
+    
+}
+.infoContainer{
+    background-color:white;
+  color: black;
+    height: 40vh;
+    width: 70vw;
+    margin: auto;
+    margin-top: 94px;
+    display: flex;
+    justify-content: space-between;
+}
+    
+
+.devpic img{
+    height: 47vh;
+    width: 357px;
+    border-radius: 226px;
+    
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction:column;
+    margin: auto;
+}
+.hello{
+     font-size: 33px;
+}
+.name{
+ font-size: 46px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.About{
+   font-size: 24px;
+}
+.button{
+    margin-top: 15px;
+}
+.button button:hover{
+    background-color: green;
+    font-size: large;
+}
+.button button{
+padding: 8px;
+border-radius: 233px;
+
+}
+.contactform{
+  
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:50px ;
+    padding-left: 20px;
+
+}
+.contactform h1{
+    text-align: center;
+}
+.mb-3{
+    padding-top: 30px;
+    font-size: 20px;
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contactform input{
+    block-size: 25px;
+}
+.contactform .formcheck {
+  padding-left: 55px;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contactform .formcheck label{
+    margin-left: 10px;
+  }
+
+#emailHelp{
+    padding-top: 20px;
+}
+.contactform .btn{
+    margin-top: 30px;
+    margin-left: 25vw;
+    font-size: 20px;
+    padding: 5px 80px 5px 80px;
+    border-radius: 20px;
+    color: white;
+    background-color: aqua;
+}
+.contactform .btn:hover{
+    background-color: black;
+}
+.blogcontainer h1{
+    text-align: center;
+}
+.btn-read{
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.btn-read:hover{
+    background-color: blueviolet;
+    font-size: larger;
+}
+
+.blogitem{
+    margin: 30px;
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+.blogitem h2{
+ font-family: Arial, Helvetica, sans-serif;
+}
+.blogitem p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 20px;
+}
+.intro h2{
+    margin: 20px;
+
+}
+.intro p{
+    margin: 12px;
+
+}
+.skillContainer{
+    display: flex;
+    flex-direction: column;
+}
+.css1{
+    width: 180px;
+    background-color: black;
+    height: 20px;
+    margin: 12px;
+    border: 2px solid red;
+}
+.html1{
+    width: 200px;
+    background-color: black;
+    height: 20px;
+    margin: 12px;
+    border: 2px solid red;
+    
+}
+.c{
+    width: 300px;
+    background-color: black;
+    height: 20px;
+    margin: 12px;
+    border: 2px solid red;
+}
+.js{
+    width: 150px;
+    background-color: black;
+    height: 20px;
+    margin: 12px;
+    border: 2px solid red;
+}
+.dsa{
+    width: 200px;
+    background-color: black;
+    height: 20px;
+    margin: 12px;
+    border: 2px solid red;
+}
+.sidebargo{
+        
+    transform: translate(-444px,0px);
+    position: absolute;
+}
+@media (max-width:400px){
+   
+    .devpic{
+        display: none;
+    }
+    /* .sidebar{
+        
+        transform: translate(-419px,0px);
+        position: absolute;
+    } */
+
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 6px;
+    left: 8px;
+
+}
+.ham{
+    width: 23px;
+    /* padding: 10px; */
+    margin: 8px;
+
+}
+.cross{
+    width: 23px;
+    margin: 8px;
+    margin-left: 190px;
+    
+}
